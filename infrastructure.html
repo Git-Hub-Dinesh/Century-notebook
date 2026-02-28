@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Century Printograph Infrastructure – Our state-of-the-art manufacturing facility, machinery, quality control process and production capabilities." />
+  <title>Infrastructure | Century Printograph</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#0EA5E9', pdark: '#0284C7', plight: '#38BDF8', gold: '#F43F5E' },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['"Playfair Display"', 'Georgia', 'serif'] },
+          container: { center: true, padding: { DEFAULT: '1rem', sm: '1.5rem', lg: '2rem' } },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-white">
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     NAVBAR
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center text-lg font-bold"
+            style="background:linear-gradient(135deg,#0EA5E9,#0284C7);color:#fff;">C</div>
+          <div>
+            <div class="nav-logo-text">Century Printograph</div>
+            <div class="nav-logo-sub">Notebook Manufacturers</div>
+          </div>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="infrastructure.html" class="nav-link active">Infrastructure</a>
+          <a href="contact.php" class="nav-link">Contact</a>
+          <a href="tel:+919876543210" class="nav-phone">
+            <i class="fa-solid fa-phone-volume"></i> +91 98765 43210
+          </a>
+        </div>
+        <button id="hamburger" class="hamburger md:hidden"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div id="mobile-menu">
+      <a href="index.html" class="mobile-nav-link"><i class="fa-solid fa-house mr-2 opacity-70"></i>Home</a>
+      <a href="about.html" class="mobile-nav-link"><i class="fa-solid fa-circle-info mr-2 opacity-70"></i>About Us</a>
+      <a href="products.html" class="mobile-nav-link"><i class="fa-solid fa-book mr-2 opacity-70"></i>Products</a>
+      <a href="infrastructure.html" class="mobile-nav-link active"><i
+          class="fa-solid fa-industry mr-2 opacity-70"></i>Infrastructure</a>
+      <a href="contact.php" class="mobile-nav-link"><i class="fa-solid fa-envelope mr-2 opacity-70"></i>Contact</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     PAGE HERO BANNER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 content">
+      <div class="section-tag"
+        style="color:var(--secondary);background:rgba(244,63,94,0.12);border-left-color:var(--secondary);">
+        <i class="fa-solid fa-industry text-xs"></i> Manufacturing Excellence
+      </div>
+      <h1>Our <span>Infrastructure</span></h1>
+      <nav class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+        <span>Infrastructure</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     FACILITY OVERVIEW
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <!-- Image grid -->
+        <div class="fade-in-left">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="col-span-2 rounded-2xl overflow-hidden h-64">
+              <img src="assets/images/IMG-20260225-WA0064.jpg.jpeg" alt="Main manufacturing floor"
+                class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-xl overflow-hidden h-44">
+              <img src="assets/images/IMG-20260225-WA0066.jpg.jpeg" alt="Printing press"
+                class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-xl overflow-hidden h-44">
+              <img src="assets/images/IMG-20260225-WA0056.jpg.jpeg" alt="Quality control"
+                class="w-full h-full object-cover" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="fade-in-right">
+          <div class="section-tag nb-tab"><i class="fa-solid fa-warehouse text-xs"></i> <span class="nb-handwritten">Facility Overview</span></div>
+          <h2 class="section-title">World-Class<br /><span>Manufacturing Plant</span></h2>
+          <div class="gold-line"></div>
+          <p class="text-gray-600 leading-relaxed mb-5">
+            Our manufacturing facility in Tirunelveli spans <strong>12,000 sq. ft.</strong> of fully modern factory
+            space,
+            housing the entire production workflow under one roof — from paper cutting and ruling to
+            printing, binding, and packaging.
+          </p>
+          <p class="text-gray-600 leading-relaxed mb-8">
+            Every machine is operated by trained technicians with 10+ years of experience, and all
+            operations are monitored by our in-house quality control team to ensure zero-defect output.
+          </p>
+
+          <!-- Key Specs -->
+          <div class="grid grid-cols-2 gap-4">
+            <div class="rounded-xl p-4 text-center" style="background:var(--accent);">
+              <div class="text-2xl font-bold mb-1" style="font-family:'Playfair Display',serif;color:var(--primary);">
+                12,000</div>
+              <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">Sq. Ft. Factory</div>
+            </div>
+            <div class="rounded-xl p-4 text-center" style="background:var(--accent);">
+              <div class="text-2xl font-bold mb-1" style="font-family:'Playfair Display',serif;color:var(--primary);">
+                15+</div>
+              <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">Machines</div>
+            </div>
+            <div class="rounded-xl p-4 text-center" style="background:var(--accent);">
+              <div class="text-2xl font-bold mb-1" style="font-family:'Playfair Display',serif;color:var(--primary);">
+                60+</div>
+              <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">Trained Staff</div>
+            </div>
+            <div class="rounded-xl p-4 text-center" style="background:var(--accent);">
+              <div class="text-2xl font-bold mb-1" style="font-family:'Playfair Display',serif;color:var(--primary);">
+                10M+</div>
+              <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">Annual Capacity</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     MACHINERY & EQUIPMENT
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section section-alt nb-ruled-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-gear text-xs"></i> <span class="nb-handwritten">Machinery</span></div>
+        <h2 class="section-title">Our Equipment &amp;<br /><span>Production Machines</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-subtitle mx-auto text-center">
+          State-of-the-art machinery sourced from leading manufacturers ensures precision, speed, and consistent
+          quality.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Machine 1 – Ruling Machine -->
+        <div class="machine-card nb-paper-card nb-page-hover fade-in">
+          <div class="machine-img">
+            <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500&auto=format&fit=crop&q=80"
+              alt="Ruling machine" loading="lazy" />
+          </div>
+          <div class="machine-body">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm flex-shrink-0"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-lines-leaning"></i>
+              </div>
+              <h3>Double Ruling Machine</h3>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 leading-relaxed">High-speed double-sided ruling machine capable of
+              ruling 5,000 sheets per hour with precision ± 0.2mm ruling accuracy.</p>
+            <div class="spec-row"><span>Speed</span><span>5,000 sheets/hr</span></div>
+            <div class="spec-row"><span>Ruling Width</span><span>6–12 mm</span></div>
+            <div class="spec-row"><span>Paper Range</span><span>50–100 GSM</span></div>
+            <div class="spec-row"><span>Units</span><span>3 machines</span></div>
+          </div>
+        </div>
+
+        <!-- Machine 2 – Offset Printing -->
+        <div class="machine-card nb-paper-card nb-page-hover fade-in delay-1">
+          <div class="machine-img">
+            <img src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?w=500&auto=format&fit=crop&q=80"
+              alt="Offset printing press" loading="lazy" />
+          </div>
+          <div class="machine-body">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm flex-shrink-0"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-print"></i>
+              </div>
+              <h3>4-Color Offset Press</h3>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 leading-relaxed">Full-color offset printing press for notebook covers
+              and institutional branding with up to 4-color CMYK accuracy.</p>
+            <div class="spec-row"><span>Colors</span><span>4-color CMYK</span></div>
+            <div class="spec-row"><span>Sheet Size</span><span>Up to A1</span></div>
+            <div class="spec-row"><span>Speed</span><span>8,000 sheets/hr</span></div>
+            <div class="spec-row"><span>Units</span><span>2 machines</span></div>
+          </div>
+        </div>
+
+        <!-- Machine 3 – Perfect Binding -->
+        <div class="machine-card nb-paper-card nb-page-hover fade-in delay-2">
+          <div class="machine-img">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&auto=format&fit=crop&q=80"
+              alt="Binding machine" loading="lazy" />
+          </div>
+          <div class="machine-body">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm flex-shrink-0"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <h3>Perfect Binding Machine</h3>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 leading-relaxed">Automatic perfect binding system for hardbound
+              engineering records and B.Ed notebooks, using EVA hot-melt adhesive.</p>
+            <div class="spec-row"><span>Binding Type</span><span>Perfect / Hard</span></div>
+            <div class="spec-row"><span>Spine Width</span><span>3–40 mm</span></div>
+            <div class="spec-row"><span>Speed</span><span>800 books/hr</span></div>
+            <div class="spec-row"><span>Units</span><span>2 machines</span></div>
+          </div>
+        </div>
+
+        <!-- Machine 4 – Paper Cutter -->
+        <div class="machine-card nb-paper-card nb-page-hover fade-in delay-3">
+          <div class="machine-img">
+            <img src="https://images.unsplash.com/photo-1596720426673-e4e14290f0cc?w=500&auto=format&fit=crop&q=80"
+              alt="Paper cutting machine" loading="lazy" />
+          </div>
+          <div class="machine-body">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm flex-shrink-0"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-scissors"></i>
+              </div>
+              <h3>Guillotine Paper Cutter</h3>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 leading-relaxed">Programmable hydraulic guillotine cutter for precise
+              paper trimming to all required notebook sizes with ± 0.1mm accuracy.</p>
+            <div class="spec-row"><span>Cutting Width</span><span>Up to 1,200 mm</span></div>
+            <div class="spec-row"><span>Accuracy</span><span>± 0.1 mm</span></div>
+            <div class="spec-row"><span>Control</span><span>CNC Programmable</span></div>
+            <div class="spec-row"><span>Units</span><span>2 machines</span></div>
+          </div>
+        </div>
+
+        <!-- Machine 5 – Saddle Stitch -->
+        <div class="machine-card nb-paper-card nb-page-hover fade-in delay-4">
+          <div class="machine-img">
+            <img src="https://images.unsplash.com/photo-1627818377586-bab4f3c9ab5a?w=500&auto=format&fit=crop&q=80"
+              alt="Saddle stitch machine" loading="lazy" />
+          </div>
+          <div class="machine-body">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm flex-shrink-0"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-stapler"></i>
+              </div>
+              <h3>Saddle Stitch Binder</h3>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 leading-relaxed">Automatic saddle-stitch binding for exam booklets,
+              class notes, and test pads. Double-wire stitching for durability.</p>
+            <div class="spec-row"><span>Stitching</span><span>2-wire saddle</span></div>
+            <div class="spec-row"><span>Page Count</span><span>8–96 pages</span></div>
+            <div class="spec-row"><span>Speed</span><span>4,000 books/hr</span></div>
+            <div class="spec-row"><span>Units</span><span>3 machines</span></div>
+          </div>
+        </div>
+
+        <!-- Machine 6 – Lamination -->
+        <div class="machine-card nb-paper-card nb-page-hover fade-in delay-5">
+          <div class="machine-img">
+            <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=500&auto=format&fit=crop&q=80"
+              alt="Lamination machine" loading="lazy" />
+          </div>
+          <div class="machine-body">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm flex-shrink-0"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <h3>Thermal Lamination Unit</h3>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 leading-relaxed">Hot thermal lamination for notebook covers in gloss
+              and matte finishes, ensuring durability and vibrant visual appearance.</p>
+            <div class="spec-row"><span>Finish Type</span><span>Gloss / Matte / Soft</span></div>
+            <div class="spec-row"><span>Max Width</span><span>1,040 mm</span></div>
+            <div class="spec-row"><span>Temp Range</span><span>90–130 °C</span></div>
+            <div class="spec-row"><span>Units</span><span>2 machines</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     PRODUCTION PROCESS (Step Flow)
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section nb-graph-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-diagram-project text-xs"></i> <span class="nb-handwritten">Production Flow</span></div>
+        <h2 class="section-title">From Raw Paper to<br /><span>Finished Notebook</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-subtitle mx-auto text-center">
+          Our 8-step manufacturing process ensures every notebook meets exact specifications before it reaches your
+          institution.
+        </p>
+      </div>
+
+      <!-- Process Steps -->
+      <div class="relative">
+        <!-- Connector line (desktop) -->
+        <div class="hidden lg:block absolute top-12 left-14 right-14 h-0.5"
+          style="background:linear-gradient(to right,var(--secondary),var(--primary));top:44px;"></div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-6 relative z-10">
+
+          <!-- Step 1 -->
+          <div class="text-center fade-in">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--primary),var(--plight));color:var(--secondary);">
+              <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 1</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">Raw
+              Material Procurement</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Certified 60–80 GSM wood-free paper reels sourced from FSC
+              registered mills.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="text-center fade-in delay-1">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--primary),var(--plight));color:var(--secondary);">
+              <i class="fa-solid fa-scissors"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 2</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">
+              Cutting &amp; Sheeting</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Reels are slit and cut to required notebook dimensions
+              using CNC guillotine cutters.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="text-center fade-in delay-2">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--primary),var(--plight));color:var(--secondary);">
+              <i class="fa-solid fa-lines-leaning"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 3</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">Paper
+              Ruling</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Sheets pass through high-speed ruling machines applying
+              precise margin and line spacing.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="text-center fade-in delay-3">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--primary),var(--plight));color:var(--secondary);">
+              <i class="fa-solid fa-print"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 4</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">Cover
+              Printing</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">4-color offset printing for covers with GSM board, custom
+              logos and institutional branding.</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="text-center fade-in delay-1">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--secondary),var(--secondary-dark,#E11D48));color:white;">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 5</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">Cover
+              Lamination</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Gloss or matte thermal lamination applied to covers for
+              scratch resistance and vibrant finish.</p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="text-center fade-in delay-2">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--secondary),var(--secondary-dark,#E11D48));color:white;">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 6</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">
+              Gathering &amp; Binding</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Ruled pages are gathered, collated in correct order, and
+              bound using saddle stitch, perfect bind, or stitching.</p>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="text-center fade-in delay-3">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,var(--secondary),var(--secondary-dark,#A07D10));color:white;">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--secondary);">Step 7</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">
+              Quality Inspection</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">100% inspection of bound notebooks for ruling quality,
+              cover alignment, binding strength, and page count.</p>
+          </div>
+
+          <!-- Step 8 -->
+          <div class="text-center fade-in delay-4">
+            <div
+              class="w-20 h-20 rounded-full flex items-center justify-center text-xl mx-auto mb-4 border-4 border-white shadow-lg"
+              style="background:linear-gradient(135deg,#10B981,#059669);color:white;">
+              <i class="fa-solid fa-box"></i>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-widest mb-2" style="color:#10B981;">Step 8</div>
+            <h4 class="text-base font-bold mb-2" style="color:var(--primary-dark);font-family:'Inter',sans-serif;">
+              Packaging &amp; Dispatch</h4>
+            <p class="text-xs text-gray-500 leading-relaxed">Bundled in corrugated cartons, labeled, and dispatched on
+              time to institutions across Tamil Nadu.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     QUALITY CONTROL
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section section-alt nb-margin">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <!-- Text column -->
+        <div class="fade-in-left">
+          <div class="section-tag nb-tab"><i class="fa-solid fa-shield-halved text-xs"></i> <span class="nb-handwritten">Quality Assurance</span></div>
+          <h2 class="section-title">Our Commitment to<br /><span>Zero-Defect Quality</span></h2>
+          <div class="gold-line"></div>
+          <p class="text-gray-600 leading-relaxed mb-8">
+            Quality is not an afterthought at Century Printograph — it is built into every step of our
+            manufacturing process. Our ISO 9001:2015 certified QC system ensures every notebook that
+            leaves our factory meets the highest standards.
+          </p>
+
+          <!-- QC checkpoints -->
+          <div class="space-y-4">
+
+            <div class="flex items-start gap-4 p-4 rounded-xl"
+              style="background:var(--white);border:1.5px solid var(--accent);box-shadow:var(--shadow-sm);">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 text-white"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-1"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-sm mb-1" style="color:var(--primary-dark);">Incoming Paper QC</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">GSM weight, brightness, and whiteness verified for
+                  every paper reel batch before entering production.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl"
+              style="background:var(--white);border:1.5px solid var(--accent);box-shadow:var(--shadow-sm);">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 text-white"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-2"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-sm mb-1" style="color:var(--primary-dark);">In-Process Ruling Check</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">Line spacing, margin width, and ink density measured
+                  every 1,000 sheets during ruling to catch drift early.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl"
+              style="background:var(--white);border:1.5px solid var(--accent);box-shadow:var(--shadow-sm);">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 text-white"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-3"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-sm mb-1" style="color:var(--primary-dark);">Binding Strength Test</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">Finished books undergo page-pull and flex testing to
+                  ensure pages don't fall out under normal use.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl"
+              style="background:var(--white);border:1.5px solid var(--accent);box-shadow:var(--shadow-sm);">
+              <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 text-white"
+                style="background:var(--primary);">
+                <i class="fa-solid fa-4"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-sm mb-1" style="color:var(--primary-dark);">Final Visual &amp; Count
+                  Inspection</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">100% visual inspection for cover print quality,
+                  alignment, and page count accuracy before packaging.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Image column -->
+        <div class="fade-in-right">
+          <div class="rounded-2xl overflow-hidden shadow-xl mb-6 h-72">
+            <img src="assets/images/Gemini_Generated_Image_5nlrgv5nlrgv5nlr.png"
+              alt="Quality control inspection" class="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <!-- ISO Badge -->
+          <div class="flex items-center gap-6 p-6 rounded-2xl" style="background:var(--primary-dark);">
+            <div class="w-16 h-16 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
+              style="background:var(--secondary);">
+              <i class="fa-solid fa-certificate text-white"></i>
+            </div>
+            <div>
+              <div class="text-white font-bold text-lg mb-1" style="font-family:'Playfair Display',serif;">ISO 9001:2015
+                Certified</div>
+              <p class="text-blue-200 text-sm leading-relaxed">
+                Our quality management system is certified by Bureau Veritas, ensuring international standards
+                compliance in every production run.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     FACILITY PHOTO GALLERY (with lightbox)
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section nb-paper-section">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-images text-xs"></i> <span class="nb-handwritten">Photo Gallery</span></div>
+        <h2 class="section-title">A Glimpse Inside<br /><span>Our Factory</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-subtitle mx-auto text-center">Click on any image to view it in full screen.</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&auto=format&fit=crop&q=80"
+            alt="Main production floor" loading="lazy" />
+          <div class="overlay"><span>Main Production Floor</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-1">
+          <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&auto=format&fit=crop&q=80"
+            alt="Ruling machine in operation" loading="lazy" />
+          <div class="overlay"><span>Ruling Machine Operations</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-2">
+          <img src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?w=600&auto=format&fit=crop&q=80"
+            alt="Offset printing press" loading="lazy" />
+          <div class="overlay"><span>Offset Cover Printing Press</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-3">
+          <img src="https://images.unsplash.com/photo-1627818377586-bab4f3c9ab5a?w=600&auto=format&fit=crop&q=80"
+            alt="Quality inspection area" loading="lazy" />
+          <div class="overlay"><span>Quality Inspection Area</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-4">
+          <img src="https://images.unsplash.com/photo-1568667256549-094345857637?w=600&auto=format&fit=crop&q=80"
+            alt="Finished notebook stacks" loading="lazy" />
+          <div class="overlay"><span>Finished Notebook Stacks</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-5">
+          <img src="https://images.unsplash.com/photo-1596720426673-e4e14290f0cc?w=600&auto=format&fit=crop&q=80"
+            alt="Paper cutting department" loading="lazy" />
+          <div class="overlay"><span>Paper Cutting Department</span></div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=600&auto=format&fit=crop&q=80"
+            alt="Lamination unit" loading="lazy" />
+          <div class="overlay"><span>Cover Lamination Unit</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-1">
+          <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
+            alt="Packaged notebooks" loading="lazy" />
+          <div class="overlay"><span>Final Packaging Zone</span></div>
+        </div>
+
+        <div class="gallery-item fade-in delay-2">
+          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=600&auto=format&fit=crop&q=80"
+            alt="Warehouse and dispatch" loading="lazy" />
+          <div class="overlay"><span>Warehouse &amp; Dispatch Area</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     STATS STRIP
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="stats-strip">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="stat-item fade-in"><span class="stat-number" data-count="12000" data-suffix=" sqft">0</span>
+          <div class="stat-label">Factory Area</div>
+        </div>
+        <div class="stat-item fade-in delay-1"><span class="stat-number" data-count="15" data-suffix="+">0</span>
+          <div class="stat-label">Machines</div>
+        </div>
+        <div class="stat-item fade-in delay-2"><span class="stat-number" data-count="4">0</span>
+          <div class="stat-label">QC Checkpoints</div>
+        </div>
+        <div class="stat-item fade-in delay-3"><span class="stat-number" data-count="10" data-suffix="M+">0</span>
+          <div class="stat-label">Annual Production</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+        <div>
+          <div class="footer-logo-text">Century Printograph</div>
+          <span class="footer-tagline">Notebook Manufacturers</span>
+          <p>Crafting premium academic notebooks trusted by institutions across Tamil Nadu since 2005.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="products.html" class="footer-link">Products</a>
+          <a href="infrastructure.html" class="footer-link">Infrastructure</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <a href="products.html" class="footer-link">Engineering Record Note</a>
+          <a href="products.html" class="footer-link">Exam Booklet</a>
+          <a href="products.html" class="footer-link">Test &amp; Class Note</a>
+          <a href="products.html" class="footer-link">Pharmacy Record Note</a>
+          <a href="products.html" class="footer-link">B.Ed 21 Record Note</a>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>No. 12, Industrial Estate,
+              Tirunelveli – 627 001, Tamil Nadu</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:+919876543210">+91 98765
+              43210</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a
+              href="mailto:info@centuryprintograph.com">info@centuryprintograph.com</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-clock"></i><span>Mon – Sat: 9:00 AM – 6:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="footer-bottom">
+        <span>© 2025 Century Printograph. All rights reserved.</span>
+        <span>Designed &amp; Developed by <a href="#">Waybig Technologies</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

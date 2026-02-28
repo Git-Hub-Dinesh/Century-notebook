@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Century Printograph Products – Engineering record notes, exam booklets, class notes, B.Ed records, pharmacy notebooks in Short, King and Long sizes." />
+  <title>Products | Century Printograph</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#0EA5E9', pdark: '#0284C7', plight: '#38BDF8', gold: '#F43F5E' },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['"Playfair Display"', 'Georgia', 'serif'] },
+          container: { center: true, padding: { DEFAULT: '1rem', sm: '1.5rem', lg: '2rem' } },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-white">
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     NAVBAR
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center text-lg font-bold"
+            style="background:linear-gradient(135deg,#0EA5E9,#0284C7);color:#fff;">C</div>
+          <div>
+            <div class="nav-logo-text">Century Printograph</div>
+            <div class="nav-logo-sub">Notebook Manufacturers</div>
+          </div>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="products.html" class="nav-link active">Products</a>
+          <a href="infrastructure.html" class="nav-link">Infrastructure</a>
+          <a href="contact.php" class="nav-link">Contact</a>
+          <a href="tel:+919876543210" class="nav-phone">
+            <i class="fa-solid fa-phone-volume"></i> +91 98765 43210
+          </a>
+        </div>
+        <button id="hamburger" class="hamburger md:hidden"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div id="mobile-menu">
+      <a href="index.html" class="mobile-nav-link"><i class="fa-solid fa-house mr-2 opacity-70"></i>Home</a>
+      <a href="about.html" class="mobile-nav-link"><i class="fa-solid fa-circle-info mr-2 opacity-70"></i>About Us</a>
+      <a href="products.html" class="mobile-nav-link active"><i
+          class="fa-solid fa-book mr-2 opacity-70"></i>Products</a>
+      <a href="infrastructure.html" class="mobile-nav-link"><i
+          class="fa-solid fa-industry mr-2 opacity-70"></i>Infrastructure</a>
+      <a href="contact.php" class="mobile-nav-link"><i class="fa-solid fa-envelope mr-2 opacity-70"></i>Contact</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     PAGE HERO BANNER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 content">
+      <div class="section-tag"
+        style="color:var(--secondary);background:rgba(244,63,94,0.12);border-left-color:var(--secondary);">
+        <i class="fa-solid fa-book text-xs"></i> Product Catalogue
+      </div>
+      <h1>Our <span>Product Range</span></h1>
+      <nav class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+        <span>Products</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     SIZE VARIANTS INFO BANNER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <div style="background:var(--primary);padding:20px 0;">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap items-center justify-center gap-6 text-white text-sm">
+        <span class="font-semibold opacity-70 uppercase tracking-widest text-xs">Available Sizes →</span>
+        <div class="flex items-center gap-2 bg-white bg-opacity-10 rounded-full px-4 py-2">
+          <i class="fa-solid fa-ruler-horizontal" style="color:var(--secondary);"></i>
+          <span><strong>Short Size</strong> &nbsp;|&nbsp; 177 × 216 mm</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white bg-opacity-10 rounded-full px-4 py-2">
+          <i class="fa-solid fa-ruler-horizontal" style="color:var(--secondary);"></i>
+          <span><strong>King Size</strong> &nbsp;|&nbsp; 210 × 295 mm (A4)</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white bg-opacity-10 rounded-full px-4 py-2">
+          <i class="fa-solid fa-ruler-horizontal" style="color:var(--secondary);"></i>
+          <span><strong>Long Size</strong> &nbsp;|&nbsp; 210 × 340 mm</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white bg-opacity-10 rounded-full px-4 py-2">
+          <i class="fa-solid fa-file-lines" style="color:var(--secondary);"></i>
+          <span><strong>Record Format</strong> &nbsp;|&nbsp; Custom</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     CATEGORY: ACADEMIC / ENGINEERING / POLYTECHNIC / PHARMACY
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section nb-ruled-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Category Header -->
+      <div class="mb-12">
+        <div class="section-tag nb-tab"><i class="fa-solid fa-flask text-xs"></i> <span class="nb-handwritten">Category 1</span></div>
+        <h2 class="section-title">Engineering / Polytechnic /<br /><span>Pharmacy Academic Notebooks</span></h2>
+        <div class="section-divider">
+          <div class="line"></div>
+          <div class="dot"></div>
+        </div>
+        <p class="section-subtitle">
+          Precision-formatted notebooks aligned to Anna University, Polytechnic Board, and Pharmacy Council of India
+          curriculum requirements.
+        </p>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+
+        <!-- 1. Engineering Record Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
+              alt="Engineering Record Note" loading="lazy" />
+            <span class="card-badge">Engineering</span>
+          </div>
+          <div class="card-body">
+            <h3>Engineering Record Note</h3>
+            <p>Dual-side format: one side ruled for theory writing, opposite side blank/graph for diagrams. Meets Anna
+              University record note format (Experiment No., Date, Aim, Result sections).</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> King Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Long Size</span>
+            </div>
+            <!-- Paper & Pages info -->
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">60 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">100+</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Hardcover</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- 2. Test Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-1">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=600&auto=format&fit=crop&q=80"
+              alt="Test Note" loading="lazy" />
+            <span class="card-badge">Engineering</span>
+          </div>
+          <div class="card-body">
+            <h3>Test Note</h3>
+            <p>Compact test notebooks for internal assessment and cycle test use. Single-line ruling with left margin,
+              front page with student name, roll number, subject fields.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> King Size</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">60 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">40–60</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Softcover</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- 3. Class Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-2">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600&auto=format&fit=crop&q=80"
+              alt="Class Note" loading="lazy" />
+            <span class="card-badge">Academic</span>
+          </div>
+          <div class="card-body">
+            <h3>Class Note</h3>
+            <p>Everyday lecture note-taking notebooks with single-line ruling, wide margin column, and subject details
+              on cover. Perfect for daily classroom use.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Long Size</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">65 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">80–200</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Stapled</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- 4. Exam Booklet (Standard) -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-3">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=80"
+              alt="Exam Booklet Standard" loading="lazy" />
+            <span class="card-badge gold">Examination</span>
+          </div>
+          <div class="card-body">
+            <h3>Exam Booklet (Standard)</h3>
+            <p>University-grade examination booklets with security-printed cover, ruled writing pages, and serial
+              numbering. Compliant with TN university exam norms.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-file-lines text-xs"></i> Standard — 28 pages</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">70 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Ruled</div>
+                <div>Lines</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Sewn</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- 5. Autonomous Exam Booklet -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-4">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1568667256549-094345857637?w=600&auto=format&fit=crop&q=80"
+              alt="Autonomous Exam Booklet" loading="lazy" />
+            <span class="card-badge gold">Autonomous</span>
+          </div>
+          <div class="card-body">
+            <h3>Autonomous Exam Booklet</h3>
+            <p>Custom-printed booklets for autonomous colleges with institution logo, reg. number barcode space, and
+              watermark security features on every page.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-file-lines text-xs"></i> Custom Size</span>
+              <span class="size-tag"><i class="fa-solid fa-palette text-xs"></i> Custom Cover</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">80 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Custom</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Security</div>
+                <div>Features</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- 6. Pharmacy Record Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-5">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1614308456595-a7b3a1a46a53?w=600&auto=format&fit=crop&q=80"
+              alt="Pharmacy Record Note" loading="lazy" />
+            <span class="card-badge">Pharmacy</span>
+          </div>
+          <div class="card-body">
+            <h3>Pharmacy Record Note</h3>
+            <p>Specialized pharmacy lab records with tabular sections for drug analysis, graph pages for clinical
+              pharmacokinetics, and prescription format inserts.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> King Size</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">65 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">80+</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Hardcover</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+      </div><!-- /.grid -->
+
+      <!-- ─── Polytechnic Products ──────────────────────────────────────────── -->
+      <div class="mb-8">
+        <div class="section-tag nb-tab" style="margin-bottom:16px;"><i class="fa-solid fa-wrench text-xs"></i> <span class="nb-handwritten">Polytechnic Specific</span></div>
+        <h3 class="text-2xl mb-2" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Polytechnic
+          <span style="color:var(--secondary);">Record Notes</span>
+        </h3>
+        <div class="gold-line" style="margin-bottom:24px;"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Polytechnic Record -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=80"
+              alt="Polytechnic Record Note" loading="lazy" />
+            <span class="card-badge">Polytechnic</span>
+          </div>
+          <div class="card-body">
+            <h3>Polytechnic Record Note</h3>
+            <p>DOTE-aligned practical record notebooks with experiment header, observation, calculation, result, and
+              viva sections for diploma engineering students.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> King Size</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">60 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">100+</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Stitched</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Polytechnic Drawing Record -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-1">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop&q=80"
+              alt="Drawing Record Book" loading="lazy" />
+            <span class="card-badge">Drawing</span>
+          </div>
+          <div class="card-body">
+            <h3>Engineering Drawing Record</h3>
+            <p>A3/A4 size drawing record books with thick 90 GSM cartridge sheets for pencil/ink technical drawings.
+              Pre-printed title block on every sheet.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-draw-polygon text-xs"></i> A3 Size</span>
+              <span class="size-tag"><i class="fa-solid fa-draw-polygon text-xs"></i> A4 Size</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">90 GSM</div>
+                <div>Cartridge</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">40+</div>
+                <div>Sheets</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Hardcover</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Graph Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-2">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600&auto=format&fit=crop&q=80"
+              alt="Graph Note" loading="lazy" />
+            <span class="card-badge">Graph</span>
+          </div>
+          <div class="card-body">
+            <h3>Graph / Blank Record Note</h3>
+            <p>Dedicated graph-only and blank-page record notebooks for practical sketches, waveforms, circuit diagrams,
+              and data plotting in engineering labs.</p>
+            <div class="flex flex-wrap gap-1 mb-3">
+              <span class="size-tag"><i class="fa-solid fa-chart-line text-xs"></i> Graph Pages</span>
+              <span class="size-tag"><i class="fa-solid fa-file text-xs"></i> Blank Pages</span>
+            </div>
+            <div class="text-xs text-gray-400 border-t pt-3 mt-3 grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="font-bold text-gray-600">70 GSM</div>
+                <div>Paper</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">80+</div>
+                <div>Pages</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-gray-600">Stitched</div>
+                <div>Binding</div>
+              </div>
+            </div>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center mt-4">Enquire Now</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     CATEGORY: B.Ed
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section section-alt nb-graph-bg">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Header -->
+      <div class="mb-12">
+        <div class="section-tag nb-tab"><i class="fa-solid fa-chalkboard-user text-xs"></i> <span class="nb-handwritten">Category 2</span></div>
+        <h2 class="section-title">B.Ed Category<br /><span>Teacher Education Notebooks</span></h2>
+        <div class="section-divider">
+          <div class="line"></div>
+          <div class="dot"></div>
+        </div>
+        <p class="section-subtitle">
+          Purpose-designed notebooks for B.Ed and Teacher Educator programs, aligned to NCTE and TN Teachers Education
+          University standards.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- B.Ed 21 Record Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in">
+          <div class="card-img-wrap" style="height:260px;">
+            <img src="https://images.unsplash.com/photo-1568667256549-094345857637?w=600&auto=format&fit=crop&q=80"
+              alt="B.Ed 21 Record Note" loading="lazy" />
+            <span class="card-badge gold">B.Ed</span>
+          </div>
+          <div class="card-body">
+            <h3>B.Ed 21 Record Note</h3>
+            <p>
+              Comprehensive 21-experiment record notebook with pre-printed lesson plan templates, teaching practice
+              observation formats, and evaluation sheets for B.Ed students.
+            </p>
+            <!-- Spec Table -->
+            <table class="w-full text-xs mt-3 mb-4 border-collapse">
+              <thead>
+                <tr style="background:var(--accent);color:var(--primary);">
+                  <th class="p-2 text-left rounded-tl-md">Feature</th>
+                  <th class="p-2 text-left rounded-tr-md">Details</th>
+                </tr>
+              </thead>
+              <tbody class="text-gray-500">
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Page Count</td>
+                  <td class="p-2">200+ pages</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Cover</td>
+                  <td class="p-2">Hard laminated board</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Paper Weight</td>
+                  <td class="p-2">70 GSM ruling</td>
+                </tr>
+                <tr>
+                  <td class="p-2 font-medium">Special Sections</td>
+                  <td class="p-2">Lesson plans, TLMs</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Lesson Plan Book -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-1">
+          <div class="card-img-wrap" style="height:260px;">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=80"
+              alt="Lesson Plan Book" loading="lazy" />
+            <span class="card-badge gold">B.Ed</span>
+          </div>
+          <div class="card-body">
+            <h3>Lesson Plan Book</h3>
+            <p>
+              Standalone lesson plan notebooks with Herbartian / Neo-Herbartian / Constructivist and other format
+              templates pre-printed. Includes black-board work layout, AV aids columns.
+            </p>
+            <table class="w-full text-xs mt-3 mb-4 border-collapse">
+              <thead>
+                <tr style="background:var(--accent);color:var(--primary);">
+                  <th class="p-2 text-left rounded-tl-md">Feature</th>
+                  <th class="p-2 text-left rounded-tr-md">Details</th>
+                </tr>
+              </thead>
+              <tbody class="text-gray-500">
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Formats</td>
+                  <td class="p-2">3+ lesson plan formats</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Page Count</td>
+                  <td class="p-2">100–150 pages</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Cover</td>
+                  <td class="p-2">Soft laminated</td>
+                </tr>
+                <tr>
+                  <td class="p-2 font-medium">Binding</td>
+                  <td class="p-2">Stitched + glued</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Practice Teaching Record -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-2">
+          <div class="card-img-wrap" style="height:260px;">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=80"
+              alt="Practice Teaching Record" loading="lazy" />
+            <span class="card-badge gold">B.Ed</span>
+          </div>
+          <div class="card-body">
+            <h3>Practice Teaching Record</h3>
+            <p>
+              Practice teaching (PT) observation notebooks for supervisors, mentors and student teachers, with daily
+              schedule, observation criteria scoring, and final grade sheets.
+            </p>
+            <table class="w-full text-xs mt-3 mb-4 border-collapse">
+              <thead>
+                <tr style="background:var(--accent);color:var(--primary);">
+                  <th class="p-2 text-left rounded-tl-md">Feature</th>
+                  <th class="p-2 text-left rounded-tr-md">Details</th>
+                </tr>
+              </thead>
+              <tbody class="text-gray-500">
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Sections</td>
+                  <td class="p-2">Observation + feedback</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Pages</td>
+                  <td class="p-2">60+ sheets</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-2 font-medium">Ruling</td>
+                  <td class="p-2">Tabular + ruled</td>
+                </tr>
+                <tr>
+                  <td class="p-2 font-medium">Custom Print</td>
+                  <td class="p-2">College logo available</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="contact.php" class="btn-secondary text-sm py-2 px-4 w-full justify-center">Enquire Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     SIZE VARIANTS DETAILED TABLE
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section nb-graph-bg nb-margin">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-ruler-combined text-xs"></i> <span class="nb-handwritten">Size Guide</span></div>
+        <h2 class="section-title">Available Size <span>Variants</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- Responsive Table -->
+      <div class="overflow-x-auto rounded-2xl shadow-md border border-gray-100">
+        <table class="w-full text-sm">
+          <thead style="background:var(--primary);color:white;">
+            <tr>
+              <th class="p-4 text-left font-semibold">Size Name</th>
+              <th class="p-4 text-left font-semibold">Dimensions</th>
+              <th class="p-4 text-left font-semibold">Best For</th>
+              <th class="p-4 text-left font-semibold">Available Products</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr class="bg-white hover:bg-blue-50 transition-colors">
+              <td class="p-4 font-bold" style="color:var(--primary);">
+                <i class="fa-solid fa-ruler-horizontal mr-2" style="color:var(--secondary);"></i>Short Size
+              </td>
+              <td class="p-4 text-gray-600">177 mm × 216 mm</td>
+              <td class="p-4 text-gray-600">Class notes, test notes, daily use</td>
+              <td class="p-4">
+                <span class="size-tag">Class Note</span>
+                <span class="size-tag">Test Note</span>
+                <span class="size-tag">Record Note</span>
+              </td>
+            </tr>
+            <tr class="bg-gray-50 hover:bg-blue-50 transition-colors">
+              <td class="p-4 font-bold" style="color:var(--primary);">
+                <i class="fa-solid fa-ruler-horizontal mr-2" style="color:var(--secondary);"></i>King Size (A4)
+              </td>
+              <td class="p-4 text-gray-600">210 mm × 297 mm</td>
+              <td class="p-4 text-gray-600">Engineering records, pharmacy, drawing</td>
+              <td class="p-4">
+                <span class="size-tag">Record Note</span>
+                <span class="size-tag">Pharmacy</span>
+                <span class="size-tag">Polytech</span>
+              </td>
+            </tr>
+            <tr class="bg-white hover:bg-blue-50 transition-colors">
+              <td class="p-4 font-bold" style="color:var(--primary);">
+                <i class="fa-solid fa-ruler-horizontal mr-2" style="color:var(--secondary);"></i>Long Size
+              </td>
+              <td class="p-4 text-gray-600">210 mm × 340 mm</td>
+              <td class="p-4 text-gray-600">Formal records, B.Ed, writing intensive</td>
+              <td class="p-4">
+                <span class="size-tag">B.Ed Record</span>
+                <span class="size-tag">Record Note</span>
+              </td>
+            </tr>
+            <tr class="bg-gray-50 hover:bg-blue-50 transition-colors">
+              <td class="p-4 font-bold" style="color:var(--primary);">
+                <i class="fa-solid fa-file-lines mr-2" style="color:var(--secondary);"></i>Record Format
+              </td>
+              <td class="p-4 text-gray-600">Custom per institution</td>
+              <td class="p-4 text-gray-600">Autonomous/Institutional customization</td>
+              <td class="p-4">
+                <span class="size-tag">Exam Booklet</span>
+                <span class="size-tag">Custom Print</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     CUSTOM ORDER CTA
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="py-16" style="background:linear-gradient(135deg,var(--primary-dark),var(--primary));">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="hero-badge mb-4"><i class="fa-solid fa-pencil text-xs"></i> Custom Orders</div>
+          <h2 class="text-white text-3xl mb-4" style="font-family:'Playfair Display',serif;">
+            Need a Custom<br /><span style="color:var(--secondary);">Notebook Format?</span>
+          </h2>
+          <p class="text-blue-200 mb-6 leading-relaxed">
+            We manufacture notebooks to your exact specifications — institution logo, custom ruling, bespoke cover
+            design,
+            specific page count, and any combination of page types (ruled, blank, graph, tabular).
+            Minimum order: 500 books per variant.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <span class="advantage-chip"><i class="fa-solid fa-check"></i> Custom Cover Design</span>
+            <span class="advantage-chip"><i class="fa-solid fa-check"></i> Any Page Count</span>
+            <span class="advantage-chip"><i class="fa-solid fa-check"></i> Logo Printing</span>
+            <span class="advantage-chip"><i class="fa-solid fa-check"></i> Min. 500 Books</span>
+          </div>
+        </div>
+        <div class="text-center lg:text-right">
+          <div class="inline-block bg-white rounded-2xl p-8 shadow-xl text-left" style="max-width:340px;">
+            <h3 class="text-lg mb-2" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Request a
+              Sample</h3>
+            <p class="text-sm text-gray-500 mb-5">We'll send you a physical sample of the notebook format you need.</p>
+            <a href="contact.php" class="btn-primary w-full justify-center">
+              <i class="fa-solid fa-envelope"></i> Contact for Sample
+            </a>
+            <div class="mt-4 pt-4 border-t border-gray-100 text-center">
+              <a href="tel:+919876543210" class="text-sm font-semibold" style="color:var(--primary);">
+                <i class="fa-solid fa-phone mr-2" style="color:var(--secondary);"></i>+91 98765 43210
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+        <div>
+          <div class="footer-logo-text">Century Printograph</div>
+          <span class="footer-tagline">Notebook Manufacturers</span>
+          <p>Crafting premium academic notebooks trusted by institutions across Tamil Nadu since 2005.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="products.html" class="footer-link">Products</a>
+          <a href="infrastructure.html" class="footer-link">Infrastructure</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+        <div>
+          <h4>Product Categories</h4>
+          <a href="#" class="footer-link">Engineering Records</a>
+          <a href="#" class="footer-link">Exam Booklets</a>
+          <a href="#" class="footer-link">B.Ed Records</a>
+          <a href="#" class="footer-link">Pharmacy Records</a>
+          <a href="#" class="footer-link">Polytechnic Records</a>
+          <a href="#" class="footer-link">Custom Print</a>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>No. 12, Industrial Estate,
+              Tirunelveli – 627 001, Tamil Nadu</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:+919876543210">+91 98765
+              43210</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a
+              href="mailto:info@centuryprintograph.com">info@centuryprintograph.com</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-clock"></i><span>Mon – Sat: 9:00 AM – 6:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="footer-bottom">
+        <span>© 2025 Century Printograph. All rights reserved.</span>
+        <span>Designed &amp; Developed by <a href="#">Waybig Technologies</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

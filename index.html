@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ══ Meta & Title ═══════════════════════════════════════════════════════ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Century Printograph – India's trusted notebook manufacturer. High-quality academic notebooks for schools, colleges, engineering, pharmacy and B.Ed programs." />
+  <title>Century Printograph | Premium Notebook Manufacturer</title>
+
+  <!-- ══ Tailwind CSS CDN ───────────────────────────────────────────────────── -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- ══ Font Awesome ──────────────────────────────────────────────────────── -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- ══ Custom Stylesheet ─────────────────────────────────────────────────── -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- ══ Tailwind Config ───────────────────────────────────────────────────── -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#0EA5E9', pdark: '#0284C7', plight: '#38BDF8', gold: '#F43F5E' },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['"Playfair Display"', 'Georgia', 'serif'] },
+          container: { center: true, padding: { DEFAULT: '1rem', sm: '1.5rem', lg: '2rem' } },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-white">
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     STICKY NAVBAR
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center gap-3 flex-shrink-0">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center text-lg font-bold"
+            style="background:linear-gradient(135deg,#0EA5E9,#0284C7);color:#fff;">C</div>
+          <div>
+            <div class="nav-logo-text">Century Printograph</div>
+            <div class="nav-logo-sub">Notebook Manufacturers</div>
+          </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="infrastructure.html" class="nav-link">Infrastructure</a>
+          <a href="contact.php" class="nav-link">Contact</a>
+          <a href="tel:+919876543210" class="nav-phone">
+            <i class="fa-solid fa-phone-volume"></i> +91 98765 43210
+          </a>
+        </div>
+
+        <!-- Hamburger -->
+        <button id="hamburger" class="hamburger md:hidden" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+      <a href="index.html" class="mobile-nav-link active"><i class="fa-solid fa-house w-4 mr-2 opacity-70"></i>Home</a>
+      <a href="about.html" class="mobile-nav-link"><i class="fa-solid fa-circle-info w-4 mr-2 opacity-70"></i>About
+        Us</a>
+      <a href="products.html" class="mobile-nav-link"><i class="fa-solid fa-book w-4 mr-2 opacity-70"></i>Products</a>
+      <a href="infrastructure.html" class="mobile-nav-link"><i
+          class="fa-solid fa-industry w-4 mr-2 opacity-70"></i>Infrastructure</a>
+      <a href="contact.php" class="mobile-nav-link"><i class="fa-solid fa-envelope w-4 mr-2 opacity-70"></i>Contact</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     HERO SECTION  –  Split two-column layout
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="hero" aria-label="Hero banner">
+    <div class="hero-overlay"></div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 hero-content">
+      <div class="grid lg:grid-cols-2 gap-12 xl:gap-20 items-center min-h-screen py-12 lg:py-0">
+
+        <!-- ── Left: Text Column ── -->
+        <div>
+          <!-- Badge -->
+          <div class="hero-badge fade-in">
+            <i class="fa-solid fa-award text-xs"></i> <span class="nb-handwritten">Trusted Manufacturer Since 2005</span>
+          </div>
+
+          <!-- Heading -->
+          <h1 class="fade-in delay-1">
+            Crafting <span>Quality<br />Notebooks</span> That<br />
+            Empower Students
+          </h1>
+
+          <!-- Description -->
+          <p class="fade-in delay-2">
+            Century Printograph delivers precision-manufactured academic notebooks —
+            engineering records, exam booklets, B.Ed files — trusted by thousands of
+            institutions across Tamil Nadu since 2005.
+          </p>
+
+          <!-- Hero Stats -->
+          <div class="hero-stats fade-in delay-3">
+            <div class="hero-stat">
+              <span class="num" data-count="18" data-suffix="+">18+</span>
+              <span class="label">Years Active</span>
+            </div>
+            <div class="hero-stat">
+              <span class="num" data-count="500" data-suffix="+">500+</span>
+              <span class="label">Institutions</span>
+            </div>
+            <div class="hero-stat">
+              <span class="num" data-count="25" data-suffix="+">25+</span>
+              <span class="label">Products</span>
+            </div>
+            <div class="hero-stat">
+              <span class="num" data-count="10" data-suffix="M+">10M+</span>
+              <span class="label">Books / Year</span>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap gap-4 fade-in delay-4">
+            <a href="products.html" class="btn-primary">
+              <i class="fa-solid fa-book-open"></i> Explore Products
+            </a>
+            <a href="contact.php" class="btn-outline">
+              <i class="fa-solid fa-phone-volume"></i> Get Bulk Quote
+            </a>
+          </div>
+        </div>
+
+        <!-- ── Right: Image Column ── -->
+        <div class="hero-img-col hidden lg:flex fade-in-right delay-2" aria-hidden="false">
+
+          <!-- Decorative rings behind image -->
+          <div class="hero-img-ring" style="width:460px;height:460px;top:50%;left:50%;transform:translate(-50%,-50%);">
+          </div>
+          <div class="hero-img-ring"
+            style="width:560px;height:560px;top:50%;left:50%;transform:translate(-50%,-50%);border-color:rgba(201,162,39,0.08);">
+          </div>
+
+          <!-- Main product image -->
+          <div class="hero-main-img" style="width:100%;max-width:480px;">
+            <img src="assets/images/ChatGPT Image Feb 26, 2026, 06_16_36 PM.png" alt="Quality academic notebooks stacked"
+              loading="eager" />
+          </div>
+
+          <!-- Floating card: ISO Badge -->
+          <div class="hero-float-card hero-float-card--tl">
+            <div class="fc-icon" style="background:linear-gradient(135deg,#F43F5E,#E11D48);">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div>
+              <div class="fc-title">ISO Certified</div>
+              <div class="fc-sub">Quality Assured</div>
+            </div>
+          </div>
+
+          <!-- Floating card: Delivery -->
+          <div class="hero-float-card hero-float-card--br">
+            <div class="fc-icon" style="background:linear-gradient(135deg,#10B981,#059669);">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div>
+              <div class="fc-title">Fast Delivery</div>
+              <div class="fc-sub">Pan Tamil Nadu</div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <!-- end right column -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Paper Tear Divider -->
+  <div class="paper-tear" style="background:linear-gradient(135deg, #f0faf8 0%, #e5eef2 100%);margin-top:-1px;"></div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     STATS COUNTER STRIP
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="stats-strip">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-count="18" data-suffix="+">0</span>
+          <div class="stat-label">Years in Business</div>
+        </div>
+        <div class="stat-item fade-in delay-1">
+          <span class="stat-number" data-count="500" data-suffix="+">0</span>
+          <div class="stat-label">Happy Institutions</div>
+        </div>
+        <div class="stat-item fade-in delay-2">
+          <span class="stat-number" data-count="25" data-suffix="+">0</span>
+          <div class="stat-label">Product Variants</div>
+        </div>
+        <div class="stat-item fade-in delay-3">
+          <span class="stat-number" data-count="99" data-suffix="%">0</span>
+          <div class="stat-label">On-Time Delivery</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     ABOUT SNAPSHOT
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section nb-ruled-bg" aria-label="About Century Printograph">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <!-- Image column -->
+        <div class="relative fade-in-left">
+          <div class="img-frame rounded-2xl overflow-hidden shadow-2xl">
+            <img src="assets/images/IMG-20260225-WA0055(1).jpg.jpeg" alt="Students with notebooks"
+              class="w-full h-96 object-cover" loading="lazy" />
+          </div>
+          <div class="highlight-badge" style="bottom:-20px;right:-10px;">
+            <i class="fa-solid fa-medal mr-2"></i> ISO Certified Quality
+          </div>
+          <div
+            class="absolute -top-6 -right-6 w-28 h-28 rounded-2xl overflow-hidden border-4 border-white shadow-lg hidden lg:block">
+            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&auto=format&fit=crop&q=80"
+              alt="Notebook close-up" class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="fade-in-right">
+          <div class="section-tag nb-tab"><i class="fa-solid fa-circle-dot text-xs"></i> <span class="nb-handwritten">About Our Company</span></div>
+          <h2 class="section-title">Two Decades of<br /><span>Notebook Excellence</span></h2>
+          <div class="gold-line"></div>
+          <p class="section-subtitle mb-6">
+            Founded in 2005, <strong>Century Printograph</strong> has grown into one of Tamil Nadu's most
+            trusted academic notebook manufacturers. We combine state-of-the-art printing technology
+            with premium raw materials to deliver notebooks that meet the exact standards of engineering,
+            pharmacy, B.Ed, and general academic programs.
+          </p>
+          <p class="text-sm text-gray-500 mb-8">
+            Our facility is equipped with modern binding and ruling machinery ensuring consistent quality,
+            precise ruling, and durable covers across every batch.
+          </p>
+
+          <!-- Check-list grid -->
+          <div class="grid grid-cols-2 gap-4 mb-8">
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full flex items-center justify-center text-white text-xs flex-shrink-0"
+                style="background:var(--secondary);"><i class="fa-solid fa-check"></i></div>
+              <span class="text-sm font-semibold text-gray-700">Premium GSM Paper</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full flex items-center justify-center text-white text-xs flex-shrink-0"
+                style="background:var(--secondary);"><i class="fa-solid fa-check"></i></div>
+              <span class="text-sm font-semibold text-gray-700">Precise Ruling Lines</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full flex items-center justify-center text-white text-xs flex-shrink-0"
+                style="background:var(--secondary);"><i class="fa-solid fa-check"></i></div>
+              <span class="text-sm font-semibold text-gray-700">Multi-Size Variants</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full flex items-center justify-center text-white text-xs flex-shrink-0"
+                style="background:var(--secondary);"><i class="fa-solid fa-check"></i></div>
+              <span class="text-sm font-semibold text-gray-700">Bulk Order Ready</span>
+            </div>
+          </div>
+
+          <a href="about.html" class="btn-secondary">
+            <i class="fa-solid fa-arrow-right"></i> Discover Our Story
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     PRODUCTS PREVIEW
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section section-alt" aria-label="Products preview">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center mb-14">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-book text-xs"></i> <span class="nb-handwritten">Our Products</span></div>
+        <h2 class="section-title">Academic Notebooks for<br /><span>Every Discipline</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-subtitle mx-auto text-center">
+          Purpose-built notebooks engineered to the exact requirements of leading educational boards and universities.
+        </p>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Engineering Record Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
+              alt="Engineering Record Note" loading="lazy" />
+            <span class="card-badge">Engineering</span>
+          </div>
+          <div class="card-body">
+            <h3>Engineering Record Note</h3>
+            <p>Lab records with graph, blank & ruled alternate pages for engineering practical observations.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> King Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Long Size</span>
+            </div>
+            <a href="products.html" class="btn-secondary text-sm py-2 px-4 w-full justify-center">View Details <i
+                class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+          </div>
+        </div>
+
+        <!-- Exam Booklet -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-1">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600&auto=format&fit=crop&q=80"
+              alt="Exam Booklet" loading="lazy" />
+            <span class="card-badge gold">Examination</span>
+          </div>
+          <div class="card-body">
+            <h3>Exam Booklet</h3>
+            <p>University examination booklets with watermark paper, serial numbering and regulated ruling.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="size-tag"><i class="fa-solid fa-file-lines text-xs"></i> Standard</span>
+              <span class="size-tag"><i class="fa-solid fa-file-lines text-xs"></i> Autonomous</span>
+            </div>
+            <a href="products.html" class="btn-secondary text-sm py-2 px-4 w-full justify-center">View Details <i
+                class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+          </div>
+        </div>
+
+        <!-- Class Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-2">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=600&auto=format&fit=crop&q=80"
+              alt="Class Note" loading="lazy" />
+            <span class="card-badge">Academic</span>
+          </div>
+          <div class="card-body">
+            <h3>Class Note / Test Note</h3>
+            <p>Classroom notebooks in ruled and plain formats for every academic discipline.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Long Size</span>
+            </div>
+            <a href="products.html" class="btn-secondary text-sm py-2 px-4 w-full justify-center">View Details <i
+                class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+          </div>
+        </div>
+
+        <!-- B.Ed Record Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-3">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1568667256549-094345857637?w=600&auto=format&fit=crop&q=80"
+              alt="B.Ed Record Note" loading="lazy" />
+            <span class="card-badge gold">B.Ed</span>
+          </div>
+          <div class="card-body">
+            <h3>B.Ed 21 Record Note</h3>
+            <p>Comprehensive B.Ed records with lesson plan formats, observation sheets and teaching aids sections.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="size-tag"><i class="fa-solid fa-file-lines text-xs"></i> Record Format</span>
+            </div>
+            <a href="products.html" class="btn-secondary text-sm py-2 px-4 w-full justify-center">View Details <i
+                class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+          </div>
+        </div>
+
+        <!-- Pharmacy Record Note -->
+        <div class="product-card nb-paper-card nb-page-hover fade-in delay-4">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=80"
+              alt="Pharmacy Record Note" loading="lazy" />
+            <span class="card-badge">Pharmacy</span>
+          </div>
+          <div class="card-body">
+            <h3>Pharmacy Record Note</h3>
+            <p>Pharmacy lab record books with tabular, graph, and prescription format pages.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> King Size</span>
+              <span class="size-tag"><i class="fa-solid fa-ruler-horizontal text-xs"></i> Short Size</span>
+            </div>
+            <a href="products.html" class="btn-secondary text-sm py-2 px-4 w-full justify-center">View Details <i
+                class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+          </div>
+        </div>
+
+        <!-- CTA Card -->
+        <div class="fade-in delay-5">
+          <div class="h-full rounded-2xl p-8 flex flex-col items-start justify-between"
+            style="background:linear-gradient(135deg,var(--primary-dark),var(--primary));min-height:350px;">
+            <div>
+              <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-4"
+                style="background:var(--secondary);">
+                <i class="fa-solid fa-list text-white text-xl"></i>
+              </div>
+              <h3 class="text-white text-xl mb-3" style="font-family:'Playfair Display',serif;">View Full Catalogue</h3>
+              <p class="text-blue-200 text-sm leading-relaxed mb-6">
+                Explore our complete range of 25+ notebook variants across all disciplines and size formats.
+              </p>
+            </div>
+            <a href="products.html" class="btn-primary">All Products <i class="fa-solid fa-arrow-right ml-1"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     WHY CHOOSE US
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="section nb-graph-bg" aria-label="Why choose Century Printograph">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-star text-xs"></i> <span class="nb-handwritten">Our Advantages</span></div>
+        <h2 class="section-title">Why Institutions Trust<br /><span>Century Printograph</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="card p-8 fade-in">
+          <div class="card-icon-box"><i class="fa-solid fa-microscope"></i></div>
+          <h3 class="text-lg mb-3" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Premium
+            Quality Paper</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">We use 60–80 GSM bleached wood-free paper from certified
+            mills, ensuring smooth writing and minimal bleed-through.</p>
+        </div>
+
+        <div class="card p-8 fade-in delay-1">
+          <div class="card-icon-box"><i class="fa-solid fa-industry"></i></div>
+          <h3 class="text-lg mb-3" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Modern
+            Manufacturing</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">Automated binding and ruling lines with real-time QC
+            checkpoints ensure every notebook meets exact specs before dispatch.</p>
+        </div>
+
+        <div class="card p-8 fade-in delay-2">
+          <div class="card-icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3 class="text-lg mb-3" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Fast Bulk
+            Delivery</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">Our streamlined logistics network enables timely delivery of
+            large bulk orders to schools, colleges and distributors.</p>
+        </div>
+
+        <div class="card p-8 fade-in delay-3">
+          <div class="card-icon-box"><i class="fa-solid fa-palette"></i></div>
+          <h3 class="text-lg mb-3" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Custom
+            Branding</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">Institutional cover printing with your college logo, colors,
+            and custom formats for autonomous institutions.</p>
+        </div>
+
+        <div class="card p-8 fade-in delay-4">
+          <div class="card-icon-box"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+          <h3 class="text-lg mb-3" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Competitive
+            Pricing</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">Direct-from-factory pricing with volume discounts for bulk
+            buyers, distributors, and institutional procurement.</p>
+        </div>
+
+        <div class="card p-8 fade-in delay-5">
+          <div class="card-icon-box"><i class="fa-solid fa-headset"></i></div>
+          <h3 class="text-lg mb-3" style="font-family:'Playfair Display',serif;color:var(--primary-dark);">Dedicated
+            Support</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">A dedicated account manager for each bulk client ensures
+            smooth order processing, tracking, and post-delivery support.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     MANUFACTURING IMAGE STRIP
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="py-10" style="background:var(--bg-section);">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="rounded-xl overflow-hidden h-40 lg:h-52">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&auto=format&fit=crop&q=80"
+            alt="Students studying" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            loading="lazy" />
+        </div>
+        <div class="rounded-xl overflow-hidden h-40 lg:h-52">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80"
+            alt="Manufacturing plant"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+        </div>
+        <div class="rounded-xl overflow-hidden h-40 lg:h-52">
+          <img src="https://images.unsplash.com/photo-1568667256549-094345857637?w=400&auto=format&fit=crop&q=80"
+            alt="Stack of notebooks"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+        </div>
+        <div class="rounded-xl overflow-hidden h-40 lg:h-52">
+          <img src="https://images.unsplash.com/photo-1473163928189-364b2c4e1135?w=400&auto=format&fit=crop&q=80"
+            alt="Notebook writing" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+            loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     TESTIMONIALS
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <!-- Paper Tear Divider -->
+  <div class="paper-tear-bottom" style="background:var(--bg-section);margin-bottom:-1px;"></div>
+
+  <section class="section nb-paper-section" aria-label="testimonials">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <div class="section-tag nb-tab mx-auto"><i class="fa-solid fa-quote-left text-xs"></i> <span class="nb-handwritten">Testimonials</span></div>
+        <h2 class="section-title">What Our Clients<br /><span>Say About Us</span></h2>
+        <div class="section-divider justify-center">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="testimonial-card nb-paper-card nb-stacked fade-in">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"Century Printograph has been our exclusive notebook supplier for 6 years. Quality and on-time delivery are
+            never an issue. Our students love the thick paper and clean ruling."</p>
+          <div class="author-info">
+            <div class="author-avatar"><img
+                src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=100&auto=format&fit=crop&q=60"
+                alt="Dr. Ramesh Kumar" loading="lazy" /></div>
+            <div>
+              <div class="author-name">Dr. Ramesh Kumar</div>
+              <div class="author-role">Principal, GCE Tirunelveli</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card nb-paper-card nb-stacked fade-in delay-1">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"We bulk-ordered engineering record notes for our entire college. Custom cover printing and the lab record
+            format exceeded our expectations. Highly recommended!"</p>
+          <div class="author-info">
+            <div class="author-avatar"><img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=60"
+                alt="Prof. Meena Sundari" loading="lazy" /></div>
+            <div>
+              <div class="author-name">Prof. Meena Sundari</div>
+              <div class="author-role">HOD, Sastra University</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card nb-paper-card nb-stacked fade-in delay-2">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+          <p>"As a distributor, I've worked with many manufacturers. Century Printograph stands out for consistent
+            quality, transparent pricing, and sheer depth of their product range."</p>
+          <div class="author-info">
+            <div class="author-avatar"><img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&auto=format&fit=crop&q=60"
+                alt="Arun Selvam" loading="lazy" /></div>
+            <div>
+              <div class="author-name">Arun Selvam</div>
+              <div class="author-role">Director, Raj Stationery Dist.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     CTA BANNER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <section class="py-20 relative overflow-hidden"
+    style="background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 100%);">
+    <div class="absolute inset-0 opacity-5" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=1400&auto=format&fit=crop&q=40" alt=""
+        class="w-full h-full object-cover" />
+    </div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <div class="max-w-2xl mx-auto">
+        <div class="hero-badge inline-flex mb-6"><i class="fa-solid fa-boxes-stacked text-xs"></i> Bulk Orders Welcome
+        </div>
+        <h2 class="text-white mb-5" style="font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.8rem);">
+          Ready to Place a<br /><span style="color:var(--secondary);">Bulk Order?</span>
+        </h2>
+        <p class="text-blue-200 mb-8 max-w-lg mx-auto">
+          Contact our sales team today for a custom quote tailored to your institution's exact notebook requirements.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="contact.php" class="btn-primary text-base py-3 px-8">
+            <i class="fa-solid fa-envelope"></i> Send Enquiry
+          </a>
+          <a href="tel:+919876543210" class="btn-outline text-base py-3 px-8">
+            <i class="fa-solid fa-phone"></i> Call Us Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+
+        <!-- Brand -->
+        <div>
+          <div class="footer-logo-text">Century Printograph</div>
+          <span class="footer-tagline">Notebook Manufacturers</span>
+          <p>Crafting premium academic notebooks trusted by institutions across Tamil Nadu since 2005.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4>Quick Links</h4>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="products.html" class="footer-link">Products</a>
+          <a href="infrastructure.html" class="footer-link">Infrastructure</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+
+        <!-- Products -->
+        <div>
+          <h4>Products</h4>
+          <a href="products.html" class="footer-link">Engineering Record Note</a>
+          <a href="products.html" class="footer-link">Exam Booklet</a>
+          <a href="products.html" class="footer-link">Test &amp; Class Note</a>
+          <a href="products.html" class="footer-link">Pharmacy Record Note</a>
+          <a href="products.html" class="footer-link">B.Ed 21 Record Note</a>
+          <a href="products.html" class="footer-link">Polytechnic Record Note</a>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>No. 12, Industrial Estate,
+              Tirunelveli – 627 001, Tamil Nadu, India</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:+919876543210">+91 98765
+              43210</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a
+              href="mailto:info@centuryprintograph.com">info@centuryprintograph.com</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-clock"></i><span>Mon – Sat: 9:00 AM – 6:00 PM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="footer-bottom">
+        <span>© 2025 Century Printograph. All rights reserved.</span>
+        <span>Designed &amp; Developed by <a href="#">Waybig Technologies</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
